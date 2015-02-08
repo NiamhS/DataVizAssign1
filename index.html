@@ -3,12 +3,89 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Header</title>
+		<title>New Web Page of NTS2116</title>
+		<style>
+			/*
+			 * Defining a CSS class for my first div
+			 * This class will have orange text, a red border
+			 * and Algerian font.
+			 * It will also define the margin between divs.
+			 * 
+			 * CSS class names must begin with a dot
+			 */
+			.Niamhsclass{
+				color:orange;
+				border:2px solid red;
+				font-family:ALGERIAN;
+				margin-top: 25px;
+				margin-bottom: 25px;
+			}
+			
+		/*
+		 * Defining a second CSS class for my second div.
+		 * This class will have salmon-colored text, a salmon border
+		 * and a grey background.
+		 * It will also define the margin between divs.
+		 * 
+		 */
+			.class2{
+				color:salmon;
+				border:2px solid;
+				background-color:#e1e1e1;
+				margin-top: 25px;
+				margin-bottom: 25px;
+			}
+		</style>
+		
 	</head>
 	<body>
-		<h1>New Web Project Page</h1>
+		<h1 style= "font-family:ALGERIAN; color: blue">Welcome</h1>
+		
+		<div>My name is Niamh Sweeney. I am from Dublin, Ireland. 
+		I turned 35 this week. 35 is not a prime number. 
+		The prime numbers under 20 are as follows: 
+		I used to work as a radio reporter and host for Ireland's public service broadcaster, RTE News.
+		In 2010 I moved to the US to do a master's program.
+		On graduating, began to write for the business pages of The Irish Times.
+		I recently spent two years working in politics. 
+		My boss was the Deputy Prime Minister and Minister for Foreign Affairs of Ireland. 
+		He resigned from executive office in May of last year.</div>
+		
 	</body>
 </html>
-<!--> Adding another header type -->
-<h2>This Will Be My Second Header</h2>
+<!-- Adding another header type -->
+<h2 style= "color:blue; font-family:Calibri;">Not much of anything happening here yet</h2>
 
+<!-- create a div with red text inside it -->
+
+<div class = "Niamhsclass"> This is my first div with orange text and the Algerian font. </div>
+
+<div class = "class2"> This is my second div, for which I chose salmon-colored text and a light grey background. </div>
+	
+<script>
+	alert("This is an alert!");
+	
+	/*
+	 * Create a set of variables, each with a different data type.
+	 * 
+	 */
+	
+	var myAge = 35; //this is my age
+	var sampleString = "Always in quotes";
+	var sampleBoolean = true; //this is an example of a boolean
+	var sampleArray = [2,3,5,7,11,13,17,19]; //these are the prime numbers under 20
+	var sampleObject = {sampleProperty:"radio reporter and host"}; //this is an object that will have a given value
+	
+	console.log (sampleArray); //round parentheses are used for functions
+	console.log (myAge); //35 is a good solid number
+	console.log (sampleBoolean); // my only other option here was false
+	console.log (sampleString); //these will get more interesting as time moves on
+	console.log (sampleObject); //these seem to be the most important of the variables
+	//access first item in my array
+	console.log (sampleArray[0]); //2 is the only even prime number
+	console.log (sampleObject.sampleProperty);
+	
+	var sampleVariable;
+	console.log (sampleVariable);
+	
+	</script>
